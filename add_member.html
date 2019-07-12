@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <form action="php/add_member.php" method="post">
+            <input type="text" placeholder="user" name="user" required>
+            <input type="password" name="pass">
+            <br>
+            <label>SEX :</label>
+            <label><input type="radio" name="SEX" value="1"> MALE</label> 
+            <label><input type="radio" name="SEX" value="2"> FEMALE</label> 
+            <br>
+            <label>FAVORITE :</label> 
+            <label><input type="checkbox" name="fav_a" value="APPLE"> APPLE</label> 
+            <label><input type="checkbox" name="fav_a" value="BANANA"> BANANA</label>
+            <br>
+            <label>AGE :</label>
+            <Select name="AGE">
+                <option value="1">10-15</option>
+                <option value="2">16-20</option>
+            </Select>
+            <br>
+            <button type="submit"> SAVE </button>
+            <button type="reset"> RESET </button>
+        </form>
+    </body>
+</html>
